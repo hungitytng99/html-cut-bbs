@@ -6,14 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link href="./assets/css/style.css" rel="stylesheet" />
 </head>
 
@@ -39,7 +36,7 @@
                         Báo cáo công việc
                     </li>
                 </ul>
-                <i class="fa-solid fa-bars nav-bar__left-bar" style=""></i>
+                <i class="fa-solid fa-bars nav-bar__left-bar" style="font-size: 20px;"></i>
             </div>
             <div class="nav-bar__right">
                 <div class="nav-bar__right-user">
@@ -49,11 +46,13 @@
                     <div class="user-username">Nguyễn Trung Thành
                         <i class="fa-solid fa-chevron-down user-dropdown"></i>
                     </div>
-
                 </div>
                 <div class="nav-bar__right-notify">
                     <i class="fa-solid fa-bell right-notify__bell"></i>
                 </div>
+            </div>
+            <div class="nav-bar__right-mobile">
+                <i class="far fa-address-card" style="font-size: 20px;"></i>
             </div>
         </div>
         <div class="side-bar">
@@ -97,238 +96,244 @@
                         <i class="fa-solid fa-address-book side-bar__item-icon" style="color: #BE4BDB"></i>
                         <div class="side-bar__item-text ">Danh sách nhân viên</div>
                     </a>
-                <li class="side-bar__item__active">
-                    <a href="">
-                        <i class="fa-solid fa-skull-crossbones side-bar__item-icon" style="color: #F783AC"></i>
-                        <div class="side-bar__item-text">Nội quy/Quy định</div>
-                    </a>
-                </li>
-                <li class="side-bar__item__active">
-                    <a href="">
-                        <i class="fa-solid fa-book side-bar__item-icon" style="color: #82C91E"></i>
-                        <div class="side-bar__item-text">Kinh nghiệm làm việc</div>
-                    </a>
-                </li>
-                <li class="side-bar__item__active">
-                    <a href="">
-                        <i class="fa-solid fa-share-from-square side-bar__item-icon" style="color:#FD7E14"></i>
-                        <div class="side-bar__item-text">Chia sẻ tài liệu</div>
-                    </a>
-                </li>
-                <li class="side-bar__item__active">
-                    <a href="">
-                        <i class="fa-solid fa-laptop side-bar__item-icon" style="color: #BE4BDB"></i>
-                        <div class="side-bar__item-text">Quản lý thiết bị</div>
-                    </a>
-                </li>
+                    <li class="side-bar__item__active">
+                        <a href="">
+                            <i class="fa-solid fa-skull-crossbones side-bar__item-icon" style="color: #F783AC"></i>
+                            <div class="side-bar__item-text">Nội quy/Quy định</div>
+                        </a>
+                    </li>
+                    <li class="side-bar__item__active">
+                        <a href="">
+                            <i class="fa-solid fa-book side-bar__item-icon" style="color: #82C91E"></i>
+                            <div class="side-bar__item-text">Kinh nghiệm làm việc</div>
+                        </a>
+                    </li>
+                    <li class="side-bar__item__active">
+                        <a href="">
+                            <i class="fa-solid fa-share-from-square side-bar__item-icon" style="color:#FD7E14"></i>
+                            <div class="side-bar__item-text">Chia sẻ tài liệu</div>
+                        </a>
+                    </li>
+                    <li class="side-bar__item__active">
+                        <a href="">
+                            <i class="fa-solid fa-laptop side-bar__item-icon" style="color: #BE4BDB"></i>
+                            <div class="side-bar__item-text">Quản lý thiết bị</div>
+                        </a>
+                    </li>
 
             </ul>
         </div>
         <div class="content">
 
             <div class="notify">
-                <div class="notify__content">
-                    <div class="notify__content__first">
-                        <div class="notify__content__info">
-                            <img class="notify__content__img" src="./assets/images/radiojvb.png" alt="">
-                            <div class="notify__content__text">
-                                <b>ĐÀI PHÁT THANH JVB</b>
-                                <p>Ra mắt nhà đài JVB cùng các</p>
-                                <p>Chương trình phát thanh vô cùng...</p>
+                <div class="row notify__content ">
+                    <div class="col col-md-6 col-sm-12 col-xs-12 notify__content__first">
+                        <div class="row">
+                            <div class="col col-sm-4">
+                                <img class="notify__content__img" src="./assets/images/radiojvb.png" alt="" style="width: 100%;">
                             </div>
-                        </div>
-
-                    </div>
-                    <div class="notify__content__second">
-                        <div class="notify__content__info">
-                            <img class="notify__content__img" src="./assets/images/goodjob.png" alt="">
-                            <div class="notify__content__text">
-                                <b>Congratulation to Mr Son and Ms Nhung</b>
-                                <p>You did a good job. We are proud of you...</p>
+                            <div class="col col-sm-8">
+                                <div class="notify__content__text">
+                                    <b class="text_over_flow_2">ĐÀI PHÁT THANH JVB</b>
+                                    <p class="text_over_flow_2">Ra mắt nhà đài JVB cùng các Chương trình phát thanh vô cùng</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                </div>
-                <div class="notify__content__more">
-                    <a href="">Xem thêm thông báo >></a>
+                    <div class="col col-md-6 col-sm-12 col-xs-12 notify__content__first">
+                        <div class="row">
+                            <div class="col col-sm-4">
+                                <img class="notify__content__img" src="./assets/images/goodjob.png" alt="" style="width: 100%;">
+                            </div>
+                            <div class="col col-sm-8">
+                                <div class="notify__content__text">
+                                    <b class="text_over_flow_2">Lịch nghỉ Giỗ tổ Hùng Vương và 30/04-01/05</b>
+                                    <p class="text_over_flow_2">Lịch nghỉ Giỗ tổ Hùng Vương và 30/04-01/05</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="news-and-daily">
-                <div class="news">
-                    <div class="news__box">
-                        <div class="news__box__img">
-                            <img src="./assets/images/event1.jpg" alt="">
-                        </div>
-                        <div class="flex-text">
-                            <div class="news__box__title">
-                                <b>RELAX TIME in An Vui 2021</b>
+            <div class="notify__content__more">
+                <a href="">Xem thêm thông báo >></a>
+            </div>
+        </div>
+        <div class="news-and-daily">
+            <div class="news">
+                <div class="news__box">
+                    <div class="news__box__img">
+                        <img src="./assets/images/event1.jpg" alt="">
+                    </div>
+                    <div class="flex-text">
+                        <div class="news__box__title">
+                            <b>RELAX TIME in An Vui 2021</b>
 
-                            </div>
-                            <div class="news__box__info">
-                                <p>Thời gian tổ chức: 2021-04-24</p>
-                                </p>
-                                <p>Địa điểm tổ chức: An Vui Lodge Cottage - Thôn Mu...</p>
-                                </p>
-                                <hr>
-                                <p>Đi đâu không quan trọng - Quan trọng là đi cùng nhau... </p>
-                            </div>
-                            <button class="news__more">XEM CHI TIẾT</button>
                         </div>
-                    </div>
-                    <div class="news__box">
-                        <div class="news__box__img">
-                            <img src="./assets/images/party.jpg" alt="">
+                        <div class="news__box__info">
+                            <p>Thời gian tổ chức: 2021-04-24</p>
+                            </p>
+                            <p>Địa điểm tổ chức: An Vui Lodge Cottage - Thôn Mu...</p>
+                            </p>
+                            <hr>
+                            <p>Đi đâu không quan trọng - Quan trọng là đi cùng nhau... </p>
                         </div>
-                        <div class="flex-text">
-                            <div class="news__box__title">
-                                <b>YEAR END PARTY 2020</b>
-                            </div>
-                            <div class="news__box__info">
-                                <p>Thời gian tổ chức: 2021-01-27</p>
-                                <p>Địa điểm tổ chức: Hội trường Royal 3 Trung tâm t...</p>
-                                <hr>
-                                <p>Sự kiện đáng mong đợi nhất của năm đã đến...</p>
-                            </div>
-                            <button class="news__more">XEM CHI TIẾT</button>
-                        </div>
-                    </div>
-                    <div class="news__box">
-                        <div class="news__box__img">
-                            <img style="max-width: 100%;
-                            height: 418px;" src="./assets/images/birthday.png" alt="">
-                        </div>
-                        <div class="flex-text">
-                            <div class="news__box__title">
-                                <b>BIRTHDAY PARTY QUÝ IV</b>
-                            </div>
-                            <div class="news__box__info">
-                                <p>Thời gian tổ chức: 2020-12-18</p>
-                                <p>Địa điểm tổ chức: Trâu Ngon Quán - Lô CC01 KĐT A...</p>
-                                <hr>
-                                <p>HAPPY BIRTHDAY !!!!!!!</p>
-                            </div>
-                            <button class="news__more">XEM CHI TIẾT</button>
-                        </div>
-                    </div>
-                    <div class="news__seeall">
-                        <button class="news__seeall">XEM TẤT CẢ SỰ KIỆN</button>
-                    </div>
-                    <div class="feedback">
-                        <p class="feedback__title">GÓP Ý CÔNG TY</p>
-                        <form action="">
-                            <div class="feedback__content">
-                                <textarea rows="9" cols="70">Rất mong nhận được ý kiến đóng góp hoặc đề xuất của bạn đến công ty!
-                                  </textarea>  
-                              </div>
-                        </form>
+                        <button class="news__more">XEM CHI TIẾT</button>
                     </div>
                 </div>
-                <div class="daily">
-                    <div class="daily__todo">
-                        <div class="todo__img">
-                            <img src="./assets/images/monday.png" alt="">
+                <div class="news__box">
+                    <div class="news__box__img">
+                        <img src="./assets/images/party.jpg" alt="">
+                    </div>
+                    <div class="flex-text">
+                        <div class="news__box__title">
+                            <b>YEAR END PARTY 2020</b>
                         </div>
-                        <div class="todo__title">
-                            <p>Lịch trực nhật hàng ngày</p>
+                        <div class="news__box__info">
+                            <p>Thời gian tổ chức: 2021-01-27</p>
+                            <p>Địa điểm tổ chức: Hội trường Royal 3 Trung tâm t...</p>
+                            <hr>
+                            <p>Sự kiện đáng mong đợi nhất của năm đã đến...</p>
                         </div>
-                        <div class="todo__assign">
-                            <p>Đỗ Đức An - Lê Quỳnh Nhi</p>
+                        <button class="news__more">XEM CHI TIẾT</button>
+                    </div>
+                </div>
+                <div class="news__box">
+                    <div class="news__box__img">
+                        <img style="max-width: 100%;
+                            height: 418px;" src="./assets/images/birthday.png" alt="">
+                    </div>
+                    <div class="flex-text">
+                        <div class="news__box__title">
+                            <b>BIRTHDAY PARTY QUÝ IV</b>
                         </div>
-
+                        <div class="news__box__info">
+                            <p>Thời gian tổ chức: 2020-12-18</p>
+                            <p>Địa điểm tổ chức: Trâu Ngon Quán - Lô CC01 KĐT A...</p>
+                            <hr>
+                            <p>HAPPY BIRTHDAY !!!!!!!</p>
+                        </div>
+                        <button class="news__more">XEM CHI TIẾT</button>
+                    </div>
+                </div>
+                <div class="news__seeall">
+                    <button class="news__seeall">XEM TẤT CẢ SỰ KIỆN</button>
+                </div>
+                <div class="feedback">
+                    <p class="feedback__title">GÓP Ý CÔNG TY</p>
+                    <form action="">
+                        <div class="feedback__content">
+                            <textarea rows="9" cols="70">Rất mong nhận được ý kiến đóng góp hoặc đề xuất của bạn đến công ty!
+                                  </textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="daily">
+                <div class="daily__todo">
+                    <div class="todo__img">
+                        <img src="./assets/images/monday.png" alt="">
+                    </div>
+                    <div class="todo__title">
+                        <p>Lịch trực nhật hàng ngày</p>
+                    </div>
+                    <div class="todo__assign">
+                        <p>Đỗ Đức An - Lê Quỳnh Nhi</p>
                     </div>
 
-                    <div class="daily__punish">
-                        <div class="punish__img">
-                            <img src="./assets/images/pig-1.png" alt="">
-                        </div>
-                        <div class="punish__title">
-                            <p>TIỀN PHẠT CÔNG TY CẢ THÁNG 02</p>
-                        </div>
-                        <div class="punish__assign">
-                            <p>780.000</p>
-                        </div>
-                    </div>
+                </div>
 
-                    <div id="duanmoi">
-                        <p class="project__title">DỰ ÁN MỚI</p>
+                <div class="daily__punish">
+                    <div class="punish__img">
+                        <img src="./assets/images/pig-1.png" alt="">
                     </div>
-                    <div class="new-project">
-                        <p class="project__title">NOC</p>
-                        <div class="project__info">
-                            <p>PHP Lumen</p>
-                            <p>ReactJS</p>
-                        </div>
+                    <div class="punish__title">
+                        <p>TIỀN PHẠT CÔNG TY CẢ THÁNG 02</p>
                     </div>
-                    
-                    <div class="new-project">
-                        <p class="project__title">PHC</p>
-                        <!-- <div class="project__info">
+                    <div class="punish__assign">
+                        <p>780.000</p>
+                    </div>
+                </div>
+
+                <div id="duanmoi">
+                    <p class="project__title">DỰ ÁN MỚI</p>
+                </div>
+                <div class="new-project">
+                    <p class="project__title">NOC</p>
+                    <div class="project__info">
+                        <p>PHP Lumen</p>
+                        <p>ReactJS</p>
+                    </div>
+                </div>
+
+                <div class="new-project">
+                    <p class="project__title">PHC</p>
+                    <!-- <div class="project__info">
                             <p>PHP Lumen</p>
                             <p>ReactJS</p>
                         </div> -->
-                    </div>
-                    <div class="new-project">
+                </div>
+                <div class="new-project">
                     <p class="project__title">FIS - Muasamcong</p>
                     <div class="project__info">
                         <p>Java, AngularJs</p>
-                        
+
                     </div>
+                </div>
+                <div class="new-project">
+                    <p class="project__title">Nexion-Yolo</p>
+                    <div class="project__info">
+                        <p>Python, LabelImage, Yolov4</p>
                     </div>
-                    <div class="new-project">
-                        <p class="project__title">Nexion-Yolo</p>
-                        <div class="project__info">
-                            <p>Python, LabelImage, Yolov4</p>
-                        </div>
-                    </div>
-                    <div class="new-project">
+                </div>
+                <div class="new-project">
                     <p class="project__title">Fnet</p>
                     <div class="project__info">
                         <p>Laravel</p>
-                        
+
                     </div>
-                    </div>
-                    <div class="new-project">
+                </div>
+                <div class="new-project">
                     <p class="project__title">Luvina - Salesforce</p>
                     <div class="project__info">
                         <p>Salesforce - Apex - Laravel - ReactJs</p>
-                        
+
                     </div>
-                    </div>
-                    <div class="new-project">
+                </div>
+                <div class="new-project">
                     <p class="project__title">NeoGreen</p>
-                        <!-- <div class="project__info">
+                    <!-- <div class="project__info">
                             <p>PHP Lumen</p>
                             <p>ReactJS</p>
                         </div> -->
-                    </div>
-                    <div class="new-project">
+                </div>
+                <div class="new-project">
                     <p class="project__title">Magento-Tdtw</p>
                     <div class="project__info">
                         <p>Magento</p>
-                        
+
                     </div>
-                    </div>
-                    <div class="new-project">
+                </div>
+                <div class="new-project">
                     <p class="project__title">BMM</p>
                     <div class="project__info">
                         <p>C# ASP.NET MVC</p>
                         <p>Angular</p>
                         <p>MySQL</p>
                     </div>
-                    </div>
-                    <div class="new-project">
+                </div>
+                <div class="new-project">
                     <p class="project__title">HRT - Web</p>
                     <div class="project__info">
                         <p>VueJS</p>
                     </div>
-                    </div>
-
                 </div>
-                
 
             </div>
+
+
         </div>
+    </div>
 
     </div>
 
